@@ -1,0 +1,28 @@
+.formulario {
+  display: grid;
+  grid-template-columns: 10rem 10rem;
+  gap: 10px;
+}
+.formulario__input-error {
+  font-size: 12px;
+  margin-bottom: 0;
+  display: none;
+}
+.formulario__mensaje-exito {
+  font-size: 14px;
+  color: #119200;
+  display: none;
+}
+.formulario_incorrecto {
+  color: red;
+}
+.formulario_correcto {
+  color: rgb(0, 0, 0);
+  background-color: rgb(12, 221, 12);
+}
+.mostrar_mensaje_error {
+  display: block;
+}
+.ocultar_mensaje_error {
+  display: none;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <title>Formularios y Expresiones regulares</title>
+  </head>
+  <body>
+    <main>
+      <form action="" class="formulario" id="formulario">
+        <!-- Grupo usuario -->
+        <div id="grupo_usuario">
+          <label for="">Usuario</label>
+          <div>
+            <input
+              type="text"
+              name="usuario"
+              id="usuario"
+              placeholder="Ariel123"
+            />
+          </div>
+          <p class="formulario__input-error">
+            El usuario tiene que ser de 4 a 16 digitos y solo puede contener
+            letras y numeros, guion.
+          </p>
+        </div>
+        <div id="grupo_nombre">
+          <label for="">Nombre</label>
+          <div>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Ariel Tecay"
+            />
+          </div>
+          <p class="formulario__input-error">
+            El nombre debe tener letras y espacios, puede llevar acento
+          </p>
+        </div>
+        <div id="grupo_telefono">
+          <label for="">Telefono</label>
+          <div>
+            <input
+              type="number"
+              name="telefono"
+              id="telefono"
+              placeholder="3814321654"
+            />
+          </div>
+          <p class="formulario__input-error">
+            El telefono debe contener solo números
+          </p>
+        </div>
+        <div>
+          <button type="submit">Enviar</button>
+        </div>
+      </form>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
